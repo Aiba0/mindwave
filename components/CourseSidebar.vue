@@ -17,7 +17,7 @@
               </svg>
               <span class="font-medium text-blue-500">Getting Started</span>
             </div>
-            <div class="flex items-center text-sm text-gray-500">
+            <div class="flex items-center text-[12px] text-gray-500">
               <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
               </svg>
@@ -98,7 +98,7 @@
               </svg>
               <span class="text-gray-700">Secret of Good Design</span>
             </div>
-            <div class="flex items-center text-sm text-gray-500">
+            <div class="flex items-center text-[12px] text-gray-500">
               <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
               </svg>
@@ -117,7 +117,7 @@
               </svg>
               <span class="text-gray-700">Practice Design Like an Artist</span>
             </div>
-            <div class="flex items-center text-sm text-gray-500">
+            <div class="flex items-center text-[12px] text-gray-500">
               <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
               </svg>
@@ -136,7 +136,7 @@
               </svg>
               <span class="text-gray-700">Web Development (webflow)</span>
             </div>
-            <div class="flex items-center text-sm text-gray-500">
+            <div class="flex items-center text-[12px] text-gray-500">
               <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
               </svg>
@@ -155,7 +155,7 @@
               </svg>
               <span class="text-gray-700">Secrets of Making Money Freelancing</span>
             </div>
-            <div class="flex items-center text-sm text-gray-500">
+            <div class="flex items-center text-[12px] text-gray-500">
               <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
               </svg>
@@ -174,7 +174,7 @@
               </svg>
               <span class="text-gray-700">Advanced</span>
             </div>
-            <div class="flex items-center text-sm text-gray-500">
+            <div class="flex items-center text-[12px] text-gray-500">
               <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
               </svg>
@@ -193,7 +193,7 @@
               </svg>
               <span class="text-gray-700">What's Next</span>
             </div>
-            <div class="flex items-center text-sm text-gray-500">
+            <div class="flex items-center text-[12px] text-gray-500">
               <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
               </svg>
