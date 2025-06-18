@@ -1,21 +1,21 @@
 <template>
-  <div class="w-96 bg-white border-l border-gray-200 h-screen overflow-y-auto">
+  <div class="w-96 ml-6 bg-white border border-gray-200 h-screen overflow-y-auto">
     <div class="px-6 border-b border-gray-200">
-      <div class="flex items-center justify-between mb-2">
+      <div class="flex items-center justify-between items-center p-4">
         <h3 class="text-lg font-semibold text-gray-900">Course Contents</h3>
         <span class="text-sm text-green-600 font-medium">15% Completed</span>
       </div>
     </div>
 
-    <div class="p-4">
-      <div class="space-y-2">
-        <div class="border border-gray-200 rounded-lg">
-          <button class="w-full flex items-center justify-between p-4 text-left hover:bg-gray-50">
+    <div>
+      <div>
+        <div class="border-b border-gray-200">
+          <button class="w-full flex items-center justify-between p-4 text-left bg-gray-100">
             <div class="flex items-center">
               <svg class="w-4 h-4 text-blue-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
               </svg>
-              <span class="font-medium text-gray-900">Getting Started</span>
+              <span class="font-medium text-blue-500">Getting Started</span>
             </div>
             <div class="flex items-center text-sm text-gray-500">
               <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -31,8 +31,8 @@
 
           <div class="px-4 pb-4">
             <div class="space-y-2">
-              <div class="flex items-center p-3 bg-blue-50 border border-blue-200 rounded-lg">
-                <div class="w-6 h-6 bg-blue-600 rounded flex items-center justify-center mr-3">
+              <div class="flex items-center p-3">
+                <div class="w-6 h-6 bg-blue-600 flex items-center justify-center mr-3">
                   <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
                   </svg>
@@ -43,16 +43,16 @@
                 <span class="text-sm text-gray-500">07:31</span>
               </div>
 
-              <div class="flex items-center p-3 hover:bg-gray-50 rounded-lg">
-                <div class="w-6 h-6 border-2 border-gray-300 rounded mr-3"></div>
+              <div class="flex items-center p-3 hover:bg-gray-50 -lg">
+                <div class="w-6 h-6 border-2 border-gray-300  mr-3"></div>
                 <div class="flex-1">
                   <div class="text-sm text-gray-700">What is Webflow?</div>
                 </div>
                 <span class="text-sm text-gray-500">07:31</span>
               </div>
 
-              <div class="flex items-center p-3 hover:bg-gray-50 rounded-lg">
-                <div class="w-6 h-6 border-2 border-gray-300 rounded mr-3"></div>
+              <div class="flex items-center p-3 hover:bg-gray-50 -lg">
+                <div class="w-6 h-6 border-2 border-gray-300  mr-3"></div>
                 <div class="flex-1">
                   <div class="text-sm text-gray-700">What is Webflow?</div>
                 </div>
@@ -62,35 +62,35 @@
           </div>
         </div>
 
-        <div class="border border-gray-200 rounded-lg">
-          <button class="w-full flex items-center justify-between p-4 text-left hover:bg-gray-50">
-            <div class="flex items-center">
-              <div class="w-6 h-6 border-2 border-gray-300 rounded mr-3"></div>
-              <span class="text-gray-700">2. Sign up in Webflow</span>
-            </div>
-            <span class="text-sm text-gray-500">07:31</span>
-          </button>
-        </div>
+<!--        <div class="border-b border-gray-200">-->
+<!--          <button class="w-full flex items-center justify-between p-4 text-left hover:bg-gray-50">-->
+<!--            <div class="flex items-center">-->
+<!--              <div class="w-6 h-6 border-2 border-gray-300  mr-3"></div>-->
+<!--              <span class="text-gray-700">2. Sign up in Webflow</span>-->
+<!--            </div>-->
+<!--            <span class="text-sm text-gray-500">07:31</span>-->
+<!--          </button>-->
+<!--        </div>-->
 
-        <div class="border border-gray-200 rounded-lg">
-          <button class="w-full flex items-center justify-between p-4 text-left hover:bg-gray-50">
-            <div class="flex items-center">
-              <div class="w-6 h-6 border-2 border-gray-300 rounded mr-3"></div>
-              <span class="text-gray-700">3. Teaser of Webflow</span>
-            </div>
-          </button>
-        </div>
+<!--        <div class="border-b border-gray-200">-->
+<!--          <button class="w-full flex items-center justify-between p-4 text-left hover:bg-gray-50">-->
+<!--            <div class="flex items-center">-->
+<!--              <div class="w-6 h-6 border-2 border-gray-300  mr-3"></div>-->
+<!--              <span class="text-gray-700">3. Teaser of Webflow</span>-->
+<!--            </div>-->
+<!--          </button>-->
+<!--        </div>-->
 
-        <div class="border border-gray-200 rounded-lg">
-          <button class="w-full flex items-center justify-between p-4 text-left hover:bg-gray-50">
-            <div class="flex items-center">
-              <div class="w-6 h-6 border-2 border-gray-300 rounded mr-3"></div>
-              <span class="text-gray-700">4. Figma Introduction</span>
-            </div>
-          </button>
-        </div>
+<!--        <div class="border-b border-gray-200">-->
+<!--          <button class="w-full flex items-center justify-between p-4 text-left hover:bg-gray-50">-->
+<!--            <div class="flex items-center">-->
+<!--              <div class="w-6 h-6 border-2 border-gray-300  mr-3"></div>-->
+<!--              <span class="text-gray-700">4. Figma Introduction</span>-->
+<!--            </div>-->
+<!--          </button>-->
+<!--        </div>-->
 
-        <div class="border border-gray-200 rounded-lg">
+        <div class="border-b border-gray-200">
           <button class="w-full flex items-center justify-between p-4 text-left hover:bg-gray-50">
             <div class="flex items-center">
               <svg class="w-4 h-4 text-gray-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -109,7 +109,7 @@
           </button>
         </div>
 
-        <div class="border border-gray-200 rounded-lg">
+        <div class="border-b border-gray-200">
           <button class="w-full flex items-center justify-between p-4 text-left hover:bg-gray-50">
             <div class="flex items-center">
               <svg class="w-4 h-4 text-gray-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -128,7 +128,7 @@
           </button>
         </div>
 
-        <div class="border border-gray-200 rounded-lg">
+        <div class="border-b border-gray-200">
           <button class="w-full flex items-center justify-between p-4 text-left hover:bg-gray-50">
             <div class="flex items-center">
               <svg class="w-4 h-4 text-gray-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -147,7 +147,7 @@
           </button>
         </div>
 
-        <div class="border border-gray-200 rounded-lg">
+        <div class="border-b border-gray-200">
           <button class="w-full flex items-center justify-between p-4 text-left hover:bg-gray-50">
             <div class="flex items-center">
               <svg class="w-4 h-4 text-gray-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -166,7 +166,7 @@
           </button>
         </div>
 
-        <div class="border border-gray-200 rounded-lg">
+        <div class="border-b border-gray-200">
           <button class="w-full flex items-center justify-between p-4 text-left hover:bg-gray-50">
             <div class="flex items-center">
               <svg class="w-4 h-4 text-gray-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -185,7 +185,7 @@
           </button>
         </div>
 
-        <div class="border border-gray-200 rounded-lg">
+        <div class="border-b border-gray-200">
           <button class="w-full flex items-center justify-between p-4 text-left hover:bg-gray-50">
             <div class="flex items-center">
               <svg class="w-4 h-4 text-gray-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
